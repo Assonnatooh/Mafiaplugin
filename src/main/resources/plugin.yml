@@ -1,0 +1,22 @@
+name: MafiaPlugin
+version: '1.0.0'
+main: com.mafiaplugin.MafiaPlugin
+api-version: '1.20'
+author: Te
+description: Sistema di mafie con chat dedicata
+
+commands:
+  adminmafia:
+    description: Apre il menu admin per gestire le mafie
+    usage: /adminmafia
+  mafia:
+    description: Gestisci la tua mafia
+    usage: /mafia <aggiungi|rimuovi|info> [nick]
+  mc:
+    description: Chat privata della mafia
+    usage: /mc <nome mafia> <messaggio>
+
+permissions:
+  mafia.admin:
+    description: Permette di creare/eliminare mafie tramite /adminmafia
+    default: op
